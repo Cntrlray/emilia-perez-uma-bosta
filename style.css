@@ -1,24 +1,58 @@
 *{
- margin: 0;
- padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 body{
-    background-color:#cc3d3d;
-    color:#181616;
+    background-color: rgb(133, 46, 46) (157, 205, 44, 0,855);
+    color: black;
 }
 
 strong{
-    color: #a71b1b;
+    color: rgb(129, 27, 27);
 }
- main{
-    display: flex;
-    padding:0 300px 0px 300px;
- }
+
+main{
+display: flex;
+padding: 0 500px 0px 300px;
+}
+
 p{
-    margin: 40px 0 50px 0;
-    font-size: 45px;
+    margin: 45px 0 150px 0;
+    font-size: 35px;
 }
 header, footer{
-    height: 145px;
+    height: 150px;
+}
+
+/*button{
+    background-color: rgb(255, 255, 255);
+    width: 155px;
+    height: 90px;
+    border-radius: 10px;
+    border-color: red;
+    margin: 25px 55px 0 0;
+}*/
+
+.botao1{
+    background-color: rgb(255, 255, 255);
+    width: 155px;
+    height: 90px;
+    border-radius: 10px;
+    border-color: red;
+    margin: 25px 55px 0 0;
+}
+
+.botao2{
+    background-color: rgb(255, 255, 255);
+    width: 155px;
+    height: 90px;
+    border-radius: 10px;
+    border-color: red;
+    margin: 25px 55px 0 0;
+}
+
+a{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
 }
